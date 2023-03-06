@@ -1,0 +1,27 @@
+.list-view {
+  display: flex;
+
+  .notes-list {
+    width: 300px;
+    background-color: #e1e1e1;
+  }
+
+  .note {
+    flex-grow: 1;
+  }
+
+  .notes-item {
+    padding: 10px;
+    cursor: pointer;
+
+    &_selected {
+      .notes-item-wrapper {
+        background-color: darkgrey;
+      }
+    }
+  }
+
+  .notes-item-wrapper {
+    padding: 10px;
+  }
+}

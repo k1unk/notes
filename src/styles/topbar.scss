@@ -1,0 +1,40 @@
+.top-bar {
+  display: flex;
+  background-color: #a2a2a2;
+
+  button {
+    padding: 5px;
+    margin: 5px;
+    background: none;
+    cursor: pointer;
+  }
+
+  .top-bar-left {
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .view-buttons {
+    display: flex;
+  }
+
+  .view-btn_selected {
+    background-color: #d5d5d5;
+  }
+
+  .top-bar-right {
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .search {
+    input {
+      height: 100%;
+    }
+  }
+}
